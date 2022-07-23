@@ -1,0 +1,107 @@
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+
+  margin: 0;
+  overflow: hidden;
+
+background-color: #eee;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  align-content: center;
+}
+
+canvas {
+  background: radial-gradient(circle, #eaeaea 0%, #777 100%);
+  width: 60vw !important;
+  height: 50vw  !important;
+  border-radius: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  display: block;  
+}
+
+
+.icon {
+  justify-content: right;
+  z-index: 1000;
+  padding: 10px;
+  opacity: 0.7;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+/* AVATAR */
+.panel{
+  /* width:30vw; */
+  /* height: calc( 25vw); */
+  height: 40vw;
+  position: absolute;
+  display: flex;
+  /* padding: 100px 0; */
+  justify-content: center;
+  align-content: center;
+  flex-flow: column;
+}
+
+.l-panel{
+  left: 0;
+  /* width:60vw; */
+  /* height: 30vw; */
+}
+.r-panel{
+  right: 0;
+  width:20vw;
+
+}
+
+.box{
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: 30px 0;
+
+}
+
+.title{
+  font-weight: bold;
+}
+
+.change{
+  margin: 10px;
+}
+
+.center{
+  background-color: #fff;
+  display: inline-block;
+  width: 100px  !important;
+  padding: 8px;
+  margin: 0 10px;
+  border-radius: 200px;
+  font-size: 17px;
+}
+
+.btn{
+  background-color: #02f7b5;
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+  /* padding: 5px; */
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 100px;
+}
+
+.SH{
+  /* text-align: center; */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 6px 18px;
+  border-radius: 60px;
+}
