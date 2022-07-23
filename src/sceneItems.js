@@ -16,7 +16,7 @@ const earth = require("./model/rig.glb").default;
 // const earth = require("./model/model1/bonnie-skin (1)/source/Samba Dancing.fbx").default;
 
 // const earth = require("./model/f.glb").default;
-const hdrbg = require("./model/Texture/courtyard_2k.hdr")
+const hdrbg = require("./courtyard_2k.hdr")
 var face, hair, cloth
 
 function addBacklight(){
